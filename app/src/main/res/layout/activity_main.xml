@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#A7C7E7">
+
+    <!-- Bouton-Message-Toast -->
+    <Button
+        android:id="@+id/buttonMessage"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Message"
+        android:textColor="#37474F"
+        android:textSize="40sp"
+        android:layout_marginBottom="30dp"/>
+
+    <!-- Counterr -->
+    <TextView
+        android:id="@+id/text_counterr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="70sp"
+        android:textColor="#1E88E5"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="30dp"
+        android:background="@drawable/cadrageeee"
+        android:layout_marginBottom="30dp"/>
+
+    <!-- Bouton-Incrementation -->
+    <Button
+        android:id="@+id/button_counterr"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Incrémenter"
+        android:textColor="#37474F"
+        android:textSize="40sp"
+        />
+
+</LinearLayout>
